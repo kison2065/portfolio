@@ -1,40 +1,41 @@
 import { motion, useMotionValue } from "framer-motion";
 import { useEffect } from "react";
 
+
 const projects = [
   {
     id: 1,
     title: "Aama ko achar",
     description: "Best place to buy achar.",
-    image: "/public/aama-ko-achar.png",
+    image: "/portfolio/aama-ko-achar.png",
     url: "https://www.aamakoachar.com/",
   },
   {
     id: 2,
     title: "Masta kala",
     description: "Best place to buy gift.",
-    image: "/public/masta-kala.png",
+    image: "/portfolio/masta-kala.png",
     url: "https://mastakala.com/",
   },
   {
     id: 3,
     title: "Trendy corner",
     description: "Best place to buy trendy clothes.",
-    image: "/public/trendy-clothes.png",
+    image: "/portfolio/trendy-clothes.png",
     url: "https://trendycornerbd.com/",
   },
   {
     id: 4,
     title: "Moosto",
     description: "Best place to buy home items.",
-    image: "/public/moosto.png",
+    image: "/portfolio/moosto.png",
     url: "https://moosto.com/",
   },
   {
     id: 5,
     title: "SmartDoko",
     description: "Best place to buy items.",
-    image: "/public/smartDoko.png",
+    image: "/portfolio/smartDoko.png",
     url: "https://smartdoko.com/",
   },
 ];
